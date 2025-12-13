@@ -2,6 +2,9 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
+(ido-mode 1)
+(ido-everywhere 1)
+
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
@@ -21,3 +24,4 @@
  '(package-selected-packages '(monochrome-theme rust-mode)))
 (custom-set-faces
  )
+
