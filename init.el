@@ -21,7 +21,7 @@
 (load-theme 'monochrome t)
 
 (custom-set-variables
- '(package-selected-packages '(monochrome-theme rust-mode)))
+ '(package-selected-packages '(magit monochrome-theme rust-mode)))
 (custom-set-faces
  )
 
