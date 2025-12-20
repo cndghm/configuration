@@ -4,7 +4,6 @@
 (setq c-basic-offset 8)
 (setq tab-width 8)
 (setq indent-tabs-mode t)
-(setq tty-escape-char ?\C-x)
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 (setq auto-save-default nil)
 (setq electric-indent-mode nil)
@@ -17,5 +16,4 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
-(normal-erase-is-backspace-mode 1)
 (set-language-environment "UTF-8")
